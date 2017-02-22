@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 2: Forms</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Assignment 2: Forms</h1>
+        <div class ="nav">
+            <ul>
+                <li><a href = "#" target ="blank">Nav 1</a></li>
+                <li><a href = "#" target ="blank">Nav 2</a></li>
+                <li><a href = "#" target ="blank">Nav 3</a></li>
+            </ul>
+        </div>
+     </header>
+        
+    <form id="contact-form" action="/" method="post">    
+    <div class = "name">
+        <label>
+          <span>Name: (required)</span><br>
+          <input placeholder="Please enter your name" type="text" required autofocus>
+        </label>
+    </div>
+    <br>
+    <div class ="animal">
+        <label>
+            <span>Do you have a pet?</span> <br>
+                <INPUT TYPE="radio" NAME="q1" VALUE="yes">Yes <br>
+                <INPUT TYPE="radio" NAME="q1" VALUE="no">No <br> 
+        </label>
+    </div>
+    <br>
+    <div class ="animal">
+        <label>
+            <span>Favorite animal: (Check all that apply)</span> <br>
+                <INPUT TYPE="checkbox" NAME="q1" VALUE="dog">Dog <br>
+                <INPUT TYPE="checkbox" NAME="q1" VALUE="cat">Cat <br>
+                <INPUT TYPE="checkbox" NAME="q1" VALUE="rabbit">Rabbit <br> 
+                <INPUT TYPE="checkbox" NAME="q1" VALUE="bird">Bird <br>
+                <INPUT TYPE="checkbox" NAME="q1" VALUE="other">Other <br>
+                <INPUT TYPE="checkbox" NAME="q1" VALUE="none">none
+        </label>
+    </div>
+    <br>
+    <div>
+        <label>
+            <span>Most interesting fact about yourself:</span> <br>
+            <textarea placeholder="Write here"></textarea>
+        </label>
+    </div>
+    <br>
+    <div class ="submit">
+        <button name="submit" type="submit">Submit</button>
+    </div>
+    <br>
+    </form> 
+    <footer id ="footer">
+        <a class ="link" href ="www.google.com">Google</a>
+        <p>Copyright 2017</p>
+    </footer>
+</body>
+</html>
